@@ -32,7 +32,7 @@ DATA_BACKEND = 'cloudsql'
 
 # Google Cloud Project ID. This can be found on the 'Overview' page at
 # https://console.developers.google.com
-PROJECT_ID = 'terraform-test-300919'
+PROJECT_ID = 'terraform-andrii-besaha'
 
 # CloudSQL & SQLAlchemy configuration
 # Replace the following values the respective values of your Cloud SQL
@@ -43,7 +43,7 @@ CLOUDSQL_DATABASE = 'bookshelf'
 # Set this value to the Cloud SQL connection name, e.g.
 #   "project:region:cloudsql-instance".
 # You must also update the value in app.yaml.
-CLOUDSQL_CONNECTION_NAME = 'terraform-test-300919:us-central1:bookshelf-db3'
+CLOUDSQL_CONNECTION_NAME = 'terraform-andrii-besaha:us-central1:bookshelf-db3'
 
 # The CloudSQL proxy is used locally to connect to the cloudsql instance.
 # To start the proxy, use:
